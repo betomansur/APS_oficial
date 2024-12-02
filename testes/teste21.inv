@@ -1,6 +1,7 @@
 tni multiplica(tni a, tni b) {
     nruter a * b;
 }
+
 tni resultado;
 resultado = multiplica(3, 4);
-ftnirp(resultado);
+ftnirp("%d\\n", resultado);

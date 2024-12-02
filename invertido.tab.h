@@ -75,7 +75,8 @@ extern int yydebug;
     AND = 276,                     /* AND  */
     OR = 277,                      /* OR  */
     NOT = 278,                     /* NOT  */
-    STRING = 279                   /* STRING  */
+    STRING = 279,                  /* STRING  */
+    POWER = 280                    /* POWER  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
@@ -84,14 +85,14 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 52 "invertido.y"
+#line 53 "invertido.y"
 
     int intval;
     float floatval;
     char charval;
     char *strval;
 
-#line 95 "invertido.tab.h"
+#line 96 "invertido.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;

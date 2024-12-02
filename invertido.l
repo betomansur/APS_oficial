@@ -20,11 +20,13 @@
 "!="            { return NE; }
 "<="            { return LE; }
 ">="            { return GE; }
-\"([^\\\"]|\\.)*\"    {
+"**"            { return POWER; }
+\"([^\\\"]|\\.)*\"  {
     yylval.strval = strdup(yytext + 1);
     yylval.strval[strlen(yylval.strval) - 1] = '\0';
-    return STRING;
+    return STRING;  // Retorna o token de STRING
 }
+
 [0-9]+\.[0-9]+ { yylval.floatval = atof(yytext); return FLOAT_NUM; }
 [0-9]+          { yylval.intval = atoi(yytext); return NUM; }
 \'[^\']\'       { yylval.charval = yytext[1]; return CHAR_LITERAL; }
@@ -45,6 +47,7 @@
 ")"             { return ')'; }
 "{"             { return '{'; }
 "}"             { return '}'; }
+
 [ \t]+          { /* Ignorar espaços em branco */ }
 \n              { /* Incrementa o número da linha automaticamente */ }
 .               { printf("Caractere nao reconhecido: %s na linha %d\n", yytext, yylineno); }

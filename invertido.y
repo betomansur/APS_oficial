@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 extern int yylineno;
 
@@ -73,6 +74,7 @@ int yylex(void);
 %left EQ NE '<' '>' LE GE
 %left '+' '-'
 %left '*' '/'
+%right POWER
 
 %%
 
@@ -182,6 +184,7 @@ expressao:
       expressao '+' expressao { $$ = $1 + $3; }
     | expressao '-' expressao { $$ = $1 - $3; }
     | expressao '*' expressao { $$ = $1 * $3; }
+    | expressao POWER expressao { $$ = pow($1, $3); }
     | expressao '/' expressao { $$ = $1 / $3; }
     | expressao EQ expressao { $$ = ($1 == $3); }
     | expressao NE expressao { $$ = ($1 != $3); }

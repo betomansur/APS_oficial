@@ -1,0 +1,5 @@
+tni niam() {
+    tni resultado;
+    resultado = 2 ** 3;
+    ftnirp("%d\\n", resultado);
+}
