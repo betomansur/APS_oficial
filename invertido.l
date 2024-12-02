@@ -13,9 +13,9 @@
 "diov"          { return VOID; }
 "nruter"        { return RETURN; }
 "ftnirp"        { return PRINTF; }
-"&&"            { return AND; }
-"\|\|"          { return OR; }
-"!"             { return NOT; }
+"dna"            { return AND; }
+"ro"          { return OR; }
+"ton"             { return NOT; }
 "=="            { return EQ; }
 "!="            { return NE; }
 "<="            { return LE; }

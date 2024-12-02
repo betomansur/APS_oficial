@@ -2,7 +2,7 @@ tni niam() {
     tni a = 5;
     tni b = 10;
     tni c = 15;
-    fi ((a < b || b > c) && !(a == c)) {
+    fi ((a < b ro b > c) dna !(a == c)) {
         ftnirp("Condicao complexa satisfeita\n", 0);
     }
 }
