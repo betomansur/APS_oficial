@@ -36,3 +36,25 @@ flex invertido.l
 bison -d invertido.y
 gcc invertido.tab.c lex.yy.c -o invertido
 .\invertido.exe input.txt
+```
+
+
+## Documentação básica
+# Regras da Linguagem C Invertido
+
+| **C**      | **C Invertido** |
+|------------|-----------------|
+| `int`      | `tni`           |
+| `float`    | `taolf`         |
+| `char`     | `rahc`          |
+| `void`     | `diov`          |
+| `return`   | `nruter`        |
+| `printf`   | `ftnirp`        |
+| `if`       | `fi`            |
+| `else`     | `esle`          |
+| `while`    | `elihw`         |
+| `for`      | `rof`           |
+| `&&`       | `dna`           |
+| `\|\|`       | `ro `           |
+| `! `       | `ton`           |
+
