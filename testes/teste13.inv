@@ -1,0 +1,15 @@
+tni quadrado(tni x) {
+    nruter x * x;
+}
+
+tni cubo(tni x) {
+    nruter x * x * x;
+}
+
+tni niam() {
+    tni a = 3;
+    tni sq = quadrado(a);
+    tni cb = cubo(a);
+    ftnirp("Quadrado de %d é %d\n", a, sq);
+    ftnirp("Cubo de %d é %d\n", a, cb);
+}

@@ -1,0 +1,8 @@
+tni niam() {
+    tni a = 2;
+    fi (a > 3) {
+        ftnirp("a is greater than 3\n", 0);
+    } esle {
+        ftnirp("a is not greater than 3\n", 0);
+    }
+}

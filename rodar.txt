@@ -1,0 +1,3 @@
+bison -d invertido.y -o invertido.tab.c
+flex -o lex.yy.c invertido.l
+gcc -o invertido_compiler.exe invertido.tab.c lex.yy.c

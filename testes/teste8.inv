@@ -1,0 +1,8 @@
+tni niam() {
+    tni a = 5;
+    fi (a > 0) {
+        fi (a < 10) {
+            ftnirp("a is between 0 and 10\n", 0);
+        }
+    }
+}

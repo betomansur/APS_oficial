@@ -1,0 +1,15 @@
+tni max(tni a, tni b, tni c) {
+    tni max = a;
+    fi (b > max) {
+        max = b;
+    }
+    fi (c > max) {
+        max = c;
+    }
+    nruter max;
+}
+
+tni niam() {
+    tni result = max(7, 3, 5);
+    ftnirp("O máximo é %d\n", result);
+}

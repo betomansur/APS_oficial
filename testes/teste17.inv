@@ -1,0 +1,7 @@
+tni x = 10;
+
+tni niam() {
+    tni x = 5;
+    ftnirp("x local = %d\n", x);
+    ftnirp("x global = %d\n", ::x);
+}

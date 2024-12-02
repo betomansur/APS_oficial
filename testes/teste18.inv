@@ -1,0 +1,7 @@
+diov saudacao() {
+    ftnirp("Olá, mundo!\n", 0);
+}
+
+tni niam() {
+    saudacao();
+}

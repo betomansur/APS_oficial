@@ -1,0 +1,11 @@
+tni outer(tni x) {
+    tni inner(tni y) {
+        nruter y * y;
+    }
+    nruter inner(x) + x;
+}
+
+tni niam() {
+    tni result = outer(5);
+    ftnirp("Resultado é %d\n", result);
+}

@@ -1,0 +1,13 @@
+tni niam() {
+    tni i = 0;
+    elihw (i < 3) {
+        tni j = 0;
+        elihw (j < 3) {
+            fi (i == j) {
+                ftnirp("i e j são iguais: %d\n", i);
+            }
+            j = j + 1;
+        }
+        i = i + 1;
+    }
+}

@@ -1,0 +1,7 @@
+tni niam() {
+    tni a = 5;
+    tni b = 10;
+    fi (a < b && b > 0) {
+        ftnirp("Ambas as condições são verdadeiras\n", 0);
+    }
+}

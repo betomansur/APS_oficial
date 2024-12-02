@@ -1,0 +1,5 @@
+tni niam() {
+    tni x;
+    x = 10;
+    ftnirp("x = %d\n", x);
+}
