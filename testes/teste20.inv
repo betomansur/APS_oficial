@@ -4,7 +4,7 @@ tni niam() {
         tni j = 0;
         elihw (j < 3) {
             fi (i == j) {
-                ftnirp("i e j são iguais: %d\n", i);
+                ftnirp("i e j sao iguais: %d\n", i);
             }
             j = j + 1;
         }

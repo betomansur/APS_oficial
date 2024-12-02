@@ -7,5 +7,5 @@ tni outer(tni x) {
 
 tni niam() {
     tni result = outer(5);
-    ftnirp("Resultado é %d\n", result);
+    ftnirp("Resultado e %d\n", result);
 }

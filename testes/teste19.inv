@@ -3,6 +3,6 @@ tni niam() {
     tni b = 10;
     tni c = 15;
     fi ((a < b || b > c) && !(a == c)) {
-        ftnirp("Condição complexa satisfeita\n", 0);
+        ftnirp("Condicao complexa satisfeita\n", 0);
     }
 }
