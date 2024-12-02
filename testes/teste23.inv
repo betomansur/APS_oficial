@@ -1,0 +1,7 @@
+tni niam() {
+    tni i;
+    rof (i = 0; i < 10; i = i + 1) {
+        ftnirp(i);
+    }
+    nruter 0;
+}
