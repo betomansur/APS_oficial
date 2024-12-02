@@ -14,6 +14,9 @@
   - `fi` → `if`
   - `esle` → `else`
   - `ftnirp` → `printf`
+ 
+### Diferenças para o C
+ - Implementamos o `**` -> Exponencial
 
 ## Exemplo de código
 
